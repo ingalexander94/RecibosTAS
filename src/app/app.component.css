@@ -1,0 +1,181 @@
+img + div {
+  display: none !important; /* Hides image downloading in Gmail */
+}
+
+.Email {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #f1f5f9;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  min-width: 100% !important;
+  width: 100% !important;
+}
+
+.Preheader {
+  display: none !important;
+  max-height: 0;
+  max-width: 0;
+  overflow: hidden;
+  color: #ffffff;
+  font-size: 1px;
+  line-height: 1px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.Background {
+  min-width: 100%;
+  width: 100%;
+  background-color: #f1f5f9;
+}
+
+.Wrapper {
+  border: 0;
+  border-collapse: collapse;
+  margin: 0 auto !important;
+  padding: 0;
+  max-width: 600px;
+  min-width: 600px;
+  width: 600px;
+}
+
+.fila {
+  border: 0;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 600px) {
+  /** Gmail **/
+  *[class="Gmail"] {
+    display: none !important;
+  }
+  /** Wrapper **/
+  .Wrapper {
+    max-width: 600px !important;
+    min-width: 320px !important;
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+  .Section {
+    width: 100% !important;
+  }
+  .Section--last {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  /** Notice **/
+  .Notice {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+  /** Header **/
+  .Header .Header-left,
+  .Header .Header-right {
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+  /** Content **/
+  .Content {
+    width: auto !important;
+  }
+  /** Divider **/
+  .Divider--kill {
+    display: none !important;
+    height: 0 !important;
+    width: 0 !important;
+  }
+  /** Spacer **/
+  .Spacer--gutter {
+    width: 20px !important;
+  }
+  .Spacer--kill {
+    height: 0 !important;
+    width: 0 !important;
+  }
+  .Spacer--emailEnds {
+    height: 0 !important;
+  }
+  /** Target **/
+  .Target img {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    max-height: 0 !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+    width: 0 !important;
+    font-size: 0 !important;
+    line-height: 0 !important;
+  }
+  .Target::before {
+    content: "" !important;
+    display: block !important;
+    border: none;
+  }
+  /** Header **/
+  .Header-area {
+    width: 100% !important;
+  }
+  .Header-left,
+  .Header-left::before,
+  .Header-right,
+  .Header-right::before {
+    height: 156px !important;
+    width: auto !important;
+    background-size: 252px 156px !important;
+    border: none;
+  }
+  .Header-left {
+    background-image: url("../assets/izquierda.png") !important;
+    background-position: bottom right !important;
+  }
+  .Header-right {
+    background-image: url("../assets/derecha.png") !important;
+    background-position: bottom left !important;
+  }
+  .Header-icon,
+  .Header-icon::before {
+    width: 96px !important;
+    height: 156px !important;
+    background-size: 96px 156px !important;
+  }
+  .Header-icon {
+    width: 96px !important;
+    height: 156px !important;
+    background-image: url("../assets/central.png") !important;
+    background-position: bottom center !important;
+  }
+  /** Table **/
+  .Table-content {
+    width: auto !important;
+  }
+  .Table-rows {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 599px) {
+  /** Data Blocks **/
+  .DataBlocks-item {
+    display: block !important;
+    width: 100% !important;
+  }
+  .DataBlocks-spacer {
+    display: block !important;
+    height: 12px !important;
+    width: auto !important;
+  }
+}
+
+.fondo {
+  background-image: url("../assets/Footer.svg") !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}

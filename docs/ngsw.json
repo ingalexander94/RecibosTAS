@@ -1,0 +1,104 @@
+{
+  "configVersion": 1,
+  "timestamp": 1592881503990,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.899aef00c19fe95520d6.js",
+        "/main-es5.899aef00c19fe95520d6.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.f332a089ad1600448873.js",
+        "/polyfills-es5.177e85a9724683782539.js",
+        "/runtime-es2015.0dae8cbc97194c7caed4.js",
+        "/runtime-es5.0dae8cbc97194c7caed4.js",
+        "/styles.3ff695c00d717f2d2a11.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/Footer.a136b9d88c565737c8f7.svg",
+        "/assets/Footer.svg",
+        "/assets/banner.svg",
+        "/assets/central.png",
+        "/assets/derecha.png",
+        "/assets/icon/logo-1024x1024.png",
+        "/assets/icon/logo-128x128.png",
+        "/assets/icon/logo-144x144.png",
+        "/assets/icon/logo-152x152.png",
+        "/assets/icon/logo-192x192.png",
+        "/assets/icon/logo-32x32.png",
+        "/assets/icon/logo-384x384.png",
+        "/assets/icon/logo-512x512.png",
+        "/assets/icon/logo-64x64.png",
+        "/assets/icon/logo-72x72.png",
+        "/assets/icon/logo-96x96.png",
+        "/assets/izquierda.png",
+        "/central.fa4229b46786846b6e2d.png",
+        "/derecha.6a7cba04297f535cadc2.png",
+        "/izquierda.5b8304a5e5acc1a5d48f.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/Footer.a136b9d88c565737c8f7.svg": "e0781cf9c17d28b0631ecf168dbb24ffee8fa375",
+    "/assets/Footer.svg": "e0781cf9c17d28b0631ecf168dbb24ffee8fa375",
+    "/assets/banner.svg": "c5b5ff71089426d832e7b2edc98ae257bb2d60d2",
+    "/assets/central.png": "5382a48073b67b56f15fb272bde3b07f41f16423",
+    "/assets/derecha.png": "e4c5c0d52f2a99621f90a6d40634fdcf8770f8f6",
+    "/assets/icon/logo-1024x1024.png": "837a8009d0e7b78993a43ddb8059341d56d89231",
+    "/assets/icon/logo-128x128.png": "0430b9ce87e729f742a6350a0b8665b5a067ea63",
+    "/assets/icon/logo-144x144.png": "ebe15a3614889855a3d8619157cc73a532a034d6",
+    "/assets/icon/logo-152x152.png": "1874d7f7f74d251eb90395860a0a8245a3308c8a",
+    "/assets/icon/logo-192x192.png": "079c991379795dc1965e6ce0572e24c2ca2b587e",
+    "/assets/icon/logo-32x32.png": "477797befbbeaa3285418e90e8e9d2b0eee56e49",
+    "/assets/icon/logo-384x384.png": "183d5f7ab551b2b6f6a22d10f5421c0f7eff2b1d",
+    "/assets/icon/logo-512x512.png": "a390f2d6d46c7cdd09ca1f18d419e538f7623147",
+    "/assets/icon/logo-64x64.png": "450d41ca64d7192f41d519765f609e710fea25be",
+    "/assets/icon/logo-72x72.png": "cd76404915b4de18272ad403c11697dbf0ac7a46",
+    "/assets/icon/logo-96x96.png": "de7d05db62bc7c15195cb7e1101b86a484c6ced1",
+    "/assets/izquierda.png": "c500db2b41fe86156e32d785519ab7153556903e",
+    "/central.fa4229b46786846b6e2d.png": "5382a48073b67b56f15fb272bde3b07f41f16423",
+    "/derecha.6a7cba04297f535cadc2.png": "e4c5c0d52f2a99621f90a6d40634fdcf8770f8f6",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "9b75ee1acd9146e128b8da6a93d3024e6422a494",
+    "/izquierda.5b8304a5e5acc1a5d48f.png": "c500db2b41fe86156e32d785519ab7153556903e",
+    "/main-es2015.899aef00c19fe95520d6.js": "13fcecae11941e949ac315c42fdf7bfe413d2ab8",
+    "/main-es5.899aef00c19fe95520d6.js": "073b5e3d32956b042d972bf53227e88839d0b2be",
+    "/manifest.webmanifest": "f9b14b272f0f11c8d91c1c68aaa85c8e1ea34f96",
+    "/polyfills-es2015.f332a089ad1600448873.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.177e85a9724683782539.js": "8aa26ea87b9958c6bd13b7c257c0e9940438e684",
+    "/runtime-es2015.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.0dae8cbc97194c7caed4.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.3ff695c00d717f2d2a11.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
